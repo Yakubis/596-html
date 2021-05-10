@@ -16,11 +16,11 @@
             <div class="logo">Freshy</div>
             <nav>
                 <a href="#home">Home</a>
-                <a href="#AboutUs">About Us</a>
-                <a href="#Shop">Shop</a>
-                <a href="#BestDeals">Best Deals</a>
-                <a href="#App">App</a>
-                <a href="#FAQ">FAQ</a>
+                <a href="#aboutUs">About Us</a>
+                <a href="#shop">Shop</a>
+                <a href="#bestdeals">Best Deals</a>
+                <a href="#app">App</a>
+                <a href="#faq">FAQ</a>
                 <a href="#contacts">Contacts</a>
                 <a href="cart.html">Cart</a>
             </nav>
@@ -28,16 +28,16 @@
         
     </header>
     <main>
-        <div>
-            <h2 class="About_shop">
+        <article>
+            <h2 class="about-shop">
                 Shop
             </h2>
             <p>
                 Shop for Groceries Online Here
             </p>
             <div>
-                <button href="#Shop">Shop Now</button>
-                <button href="#App">Try Our App</button>
+                <a href="#shop">Shop Now</a>  
+                <a href="#app">Try Our App</a>
             </div>
             <div>
                 <img src="img/fresh_fruit.svg" alt="fresh_fruit">
@@ -59,10 +59,10 @@
                 <img src="img/beverages.svg" alt="beverages">
                 <p>Beverages</p> 
             </div>
-        </div>
+        </article>
 
 
-        <div>
+        <article>
             <img src="img/girl_and_fresh.png" alt="About">
             <h2 id="AboutUs">
                 About Us
@@ -106,63 +106,66 @@
                 </div>
                 <p>We work with the best local farmers and manufacturers. We offer only GMO-free produce at great prices and with complimentary shipping right to your doorstep. Select the items you need and enjoy!</p>
                 <div>
-                    <button href="#Shop">Shop Now</button>
+                    <a href="#shop">Shop Now</a>
                 </div>
             </div>
-        </div>
+        </article>
 
-        <div>
+        <article>
             <h2>How It Works</h2>
             <p>Dont Worry, We'll Deliver</p>
             <p>We work with a number of local farms and grocery stores to deliver you the freshest and organic product for your delicious dishes.</p>
             <div>
-                <ol>
+                <div>
                     <div>
                         <img src="img/choose-items.svg" alt="Choose Items">
-                        <li>Choose Items</li>
+                        <p>1.</p>
+                        <p>Choose Items</p>
                         <p>Shop online right on this website and select the items you need.</p>
                     </div>
                     <div>
                         <img src="img/place-an-order.svg" alt="Place an Order">
-                        <li>Place an Order</li>
+                        <p>2.</p>
+                        <p>Place an Order</p>
                         <p>Add the items to cart and pay for your order online, then specify the delivery time frame.</p>
                     </div>
                     <div>
                         <img src="img/get-your-delivery.svg" alt="Get Your Delivery">
-                        <li>Get Your Delivery</li>
+                        <p>3.</p>
+                        <p>Get Your Delivery</p>
                         <p>We will deliver you order right in time. We use eco-friendly packaging.</p>
                     </div>
                     <div>
                         <p>25% off</p>
                         <h3>Weekly Sales</h3>
-                        <a href="#Best_Deals">Shop Now</a>
+                        <a href="#sales">Shop Now</a>
                     </div>
                     <div>
                         <p>Exotic</p>
                         <h3>Fresh Fruit</h3>
-                        <a href="#Shop">Shop Now</a>
+                        <a href="#shop">Shop Now</a>
                     </div>
-                </ol>
+                </div>
             </div>
-        </div>
+        </article>
 
 
-        <div>
-            <h2 id="Shop">Fresh Deals</h2>
+        <article>
+            <h2 id="shop">Fresh Deals</h2>
             <p>Right Off the Vine</p>
             <p>We are constantly updating our range and adding seasonal items. Check out the freshest products and add them to your shopping cart. </p>
-            <article>   
-                <label for="fruit"> 
-                    <input id="fruit" type="radio" name="type" checked>Fruit 
+            <div>   
+                <label> 
+                    <input id="rbfruit" type="radio" name="type" checked>Fruit 
                 </label>
-                <label for="vegetables"> 
-                    <input id="Vegetables" type="radio" name="type">Vegetables 
+                <label> 
+                    <input id="rbvegetables" type="radio" name="type">Vegetables 
                 </label>   
-                <label for="berries"> 
-                    <input id="Berries" type="radio" name="type">Berries 
+                <label> 
+                    <input id="rbberries" type="radio" name="type">Berries 
                 </label>   
-                <label for="nuts"> 
-                    <input id="nuts" type="radio" name="type">Vegetables 
+                <label> 
+                    <input id="rbnuts" type="radio" name="type">Vegetables 
                 </label>
                 <div id="fruit">
                     <div>
@@ -269,28 +272,89 @@
                         <button>Buy now</button>
                     </div>
                 </div>
-            </article>
+            </div>
 
-        </div>
-        <div>
+        </article>
+        <article>
             <h2 id="why-choose-us">Why choose us</h2>
             <p>Tasty and Healty Organic Produts for You</p>
             <p>Our goal is to make your everyday shopping really easy and pleasant. We work with the best local farms, producers, and grocery stores.</p>
             <div>
-                
+                <div>
+                    <img src="img-svg/free-delivery.svg" alt="Free Delivery">
+                    <p>Free Delivery</p>
+                    <p>Free delivery for all orders from $49.</p>
+                </div>
+                <div>
+                    <img src="img-svg/discounts.svg" alt="Discounts">
+                    <p>Discounts</p>
+                    <p>We have weekly discounts on all items.</p>
+                </div>
+                <div>
+                    <img src="img-svg/support.svg" alt="Support">
+                    <p>Support 24/7</p>
+                    <p>Want to change your order? Just contact us.</p>
+                </div>
+                <div>
+                    <img src="img-svg/easy-app.svg" alt="">
+                    <p>Easy App</p>
+                    <p>Order fresh produce on-the-go with our app.</p>
+                </div>
             </div>
-        </div>
+            <div>
+                <p>7</p>
+                <p>NY boroughs covered</p>
+                <p>300+</p>
+                <p>Fresh fruit & vegetables every day</p>
+                <p>12,000</p>
+                <p>Happy clients in 2020</p>
+                <p>74</p>
+                <p>Accurate couriers</p>
+            </div>
+        </article>
+        <article id="bestdeals">
+            <p>Top Picks</p>
+            <h2>Deals of the Week</h2>
+            <p>We cut prices for certain products every week. You can always order items you need at the lowest prices and enjoy seasonal items.</p>
+            <div>
+                <div>
+                    <img src="dealsimg/apples-green.png" alt="Granny Smith Apples">  
+                    <p>Granny Smith Apples</p>
+                    <p>2,00usd</p>
+                    <button>Buy now</button> 
+                </div>
+                <div>
+                    <img src="dealsimg/strawberries.png" alt="Strawberries">
+                    <p>Strawberries</p>
+                    <p>8,00usd</p>
+                    <button>Buy now</button>
+                </div>
+                <div>
+                    <img src="dealsimg/blackberries.png" alt="Blackberries">
+                    <p>Blackberries</p>
+                    <p>4,00usd</p>
+                    <button>Buy now</button>
+                </div>
+            </div>
+        </article>
+
 
         
     </main>
     <footer>
-        <h2>Contact Us</h2>
-        <form method="POST" action="">
-            <label for="">
-                Your name: <input type="text" placeholder="Your name" name="user-name">
-        </label>    
+        <h2 id="contacts">Contact Us</h2>
+        <form method="POST" action="https://formspree.io/f/mrgrpzlr">
+        <label>
+            Your name: <input type="text" placeholder="Your name" name="user-name">
+        </label>
+        <label>
+            Your phone number: <input type="tel" placeholder="Your phone number" name="user-phone">
+        </label>
         <label>
             Your email: <input type="email" placeholder="Your email" name="user-email">
+        </label>
+        <label>
+            Your message: <input type="text" placeholder="Type your message" name="user-message">
         </label>
         <input type="submit">
         </form>
