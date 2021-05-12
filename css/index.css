@@ -1,4 +1,23 @@
-.about-shop {
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Kosugi+Maru&family=Source+Sans+Pro:wght@600&display=swap');
+h1 {
+    font-size: 0px;
+}
+.logo-img {
+    width: 189px;
+}
+.navheader {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+#navup {
+    text-align: right;
+}
+#about-shop {
+    background-image: url(../fonimg/fon-about-shop.webp);
+    background-size: contain;
+}
+.about-shoptxt {
     color: #f69946;
     font-family: 'Kosugi Maru', sans-serif;
     font-size: 14px;
@@ -7,6 +26,32 @@
     color: #a9c623!important;
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
+}
+.onlinehere-text {
+    color: black!important;
+    font-size: 72px;
+    font-family: 'Istok Web', sans-serif;
+}
+#greenbuttonshop {
+    border: 2px solid #a9c623;
+    border-radius: 3px;
+    padding: 21px;
+    color: white;
+    background-color: #a9c623;
+}
+#greenbuttonshop:hover{
+    color: black;
+    background-color: #a9c623;
+}
+#buttontryapp {
+    border: 2px solid #a9c623;
+    border-radius: 3px;
+    padding: 21px;
+    color: #f69946;
+}
+#buttontryapp:hover{
+    color: white;
+    background-color: #a9c623;
 }
 .shop-mini-svg {
     width: 100px;
