@@ -1,37 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Kosugi+Maru&family=Source+Sans+Pro:wght@600&display=swap');
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Kosugi+Maru&family=Source+Sans+Pro:wght@600&display=swap'); h1 {
     font-size: 0px;
 }
+
 .logo-img {
     width: 189px;
 }
+
 .navheader {
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
     font-size: 16px;
+    text-decoration: none;
 }
+
+.navheader:hover {
+    color: #f69946;
+    transition: color 0.4s;
+}
+
 #navup {
     text-align: right;
 }
+
 #about-shop {
     background-image: url(../fonimg/fon-about-shop.webp);
     background-size: contain;
 }
+
 .about-shoptxt {
     color: #f69946;
     font-family: 'Kosugi Maru', sans-serif;
     font-size: 14px;
 }
+
 .groceries-text {
     color: #a9c623!important;
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
 }
+
 .onlinehere-text {
     color: black!important;
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
 }
+
 #greenbuttonshop {
     border: 2px solid #a9c623;
     border-radius: 3px;
@@ -39,35 +52,46 @@ h1 {
     color: white;
     background-color: #a9c623;
 }
-#greenbuttonshop:hover{
+
+#greenbuttonshop:hover {
     color: black;
     background-color: #a9c623;
+    transition: color 0.6s;
 }
+
 #buttontryapp {
     border: 2px solid #a9c623;
     border-radius: 3px;
     padding: 21px;
     color: #f69946;
 }
-#buttontryapp:hover{
+
+#buttontryapp:hover {
     color: white;
     background-color: #a9c623;
+    transition: color 0.6s;
 }
+
 .shop-mini-svg {
     width: 100px;
 }
+
 .about-svg {
-    width: 20px;  
+    width: 20px;
 }
+
 .hiw-svg {
     width: 100px
 }
+
 .freshimg {
     width: 210px
 }
+
 .why-choose-img {
     width: 70px
 }
+
 .week-deals-img {
     width: 203px;
 }
