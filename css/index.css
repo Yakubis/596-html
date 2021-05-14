@@ -5,26 +5,63 @@
 .logo-img {
     width: 189px;
 }
-
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+#home {
+    padding: 30px;
+}
+#burger-checkbox {
+    display: none !important;
+}
+#navup {
+    display: none;
+}
+  
+.heading input:checked ~ #navup {
+    display: block;
+}
+.logo {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+}
 .navheader {
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
     font-size: 16px;
     text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px;
 }
-
 .navheader:hover {
     color: #f69946;
     transition: color 0.4s;
 }
-
-#navup {
-    text-align: right;
+.heading {
+    margin: auto;
 }
+@media (min-width: 500px) {
+    .heading {
+      display: flex;
+    }
+    #navup {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        align-items: center;
+    }
+   
 
 #about-shop {
     background-image: url(../fonimg/fon-about-shop.webp);
-    background-size: contain;
+    background-size: cover;
+    align-content: center;
+    padding: 180px 0px 180px 50px;
 }
 
 .about-shoptxt {
@@ -34,15 +71,17 @@
 }
 
 .groceries-text {
-    color: #a9c623!important;
+    color: #a9c623;
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
+    margin: 0px 100px 0px 20px;
 }
 
 .onlinehere-text {
-    color: black!important;
+    color: black;
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
+    margin: 0px 100px 40px 20px;
 }
 
 #greenbuttonshop {
@@ -51,6 +90,7 @@
     padding: 21px;
     color: white;
     background-color: #a9c623;
+    text-decoration: none;
 }
 
 #greenbuttonshop:hover {
@@ -64,6 +104,7 @@
     border-radius: 3px;
     padding: 21px;
     color: #f69946;
+    text-decoration: none;
 }
 
 #buttontryapp:hover {
