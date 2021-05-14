@@ -49,6 +49,9 @@ body {
     .heading {
       display: flex;
     }
+    header label {
+        display: none;
+    }
     #navup {
         display: flex;
         flex: 1;
