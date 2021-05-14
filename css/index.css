@@ -52,8 +52,8 @@ body {
     header label {
         display: none;
     }
-    #navup {
-        display: flex;
+    #navup  {
+        display: flex !important;
         flex: 1;
         justify-content: flex-end;
         align-items: center;
