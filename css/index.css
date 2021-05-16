@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Kosugi+Maru&family=Source+Sans+Pro:wght@600&display=swap'); h1 {
     font-size: 0px;
 }
-
+:root {
+    --price-color: #a9c623;
+    --buy-now-color: #f69946;
+}
 .logo-img {
     width: 189px;
 }
@@ -18,7 +21,6 @@ body {
 #navup {
     display: none;
 }
-  
 .heading input:checked ~ #navup {
     display: block;
 }
@@ -39,7 +41,7 @@ body {
     padding: 5px;
 }
 .navheader:hover {
-    color: #f69946;
+    color: var(--buy-now-color);
     transition: color 0.4s;
 }
 .heading {
@@ -59,84 +61,69 @@ body {
         align-items: center;
     }
 }
-   
-
 #about-shop {
     background-image: url(../fonimg/fon-about-shop.webp);
     background-size: cover;
     align-content: center;
     padding: 180px 0px 180px 50px;
 }
-
 .about-shoptxt {
-    color: #f69946;
+    color: var(--buy-now-color);
     font-family: 'Kosugi Maru', sans-serif;
     font-size: 14px;
 }
-
 .groceries-text {
-    color: #a9c623;
+    color: var(--price-color);
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
     margin: 0px 100px 0px 20px;
 }
-
 .onlinehere-text {
     color: black;
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
     margin: 0px 100px 40px 20px;
 }
-
 #greenbuttonshop {
-    border: 2px solid #a9c623;
+    border: 2px solid var(--price-color);
     border-radius: 3px;
     padding: 21px;
     color: white;
-    background-color: #a9c623;
+    background-color: var(--price-color);
     text-decoration: none;
 }
-
 #greenbuttonshop:hover {
     color: black;
-    background-color: #a9c623;
+    background-color: var(--price-color);
     transition: color 0.6s;
 }
-
 #buttontryapp {
-    border: 2px solid #a9c623;
+    border: 2px solid var(--price-color);
     border-radius: 3px;
     padding: 21px;
-    color: #f69946;
+    color: var(--buy-now-color);
     text-decoration: none;
 }
-
 #buttontryapp:hover {
     color: white;
-    background-color: #a9c623;
+    background-color: var(--price-color);
     transition: color 0.6s;
 }
-
 .shop-mini-svg {
     width: 100px;
 }
-
 .about-svg {
     width: 20px;
 }
-
 .hiw-svg {
     width: 100px
 }
-
 .freshimg {
     width: 210px
 }
-
 .why-choose-img {
     width: 70px
 }
-
 .week-deals-img {
     width: 203px;
 }
