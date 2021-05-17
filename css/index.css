@@ -1,41 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Kosugi+Maru&family=Source+Sans+Pro:wght@600&display=swap'); h1 {
     font-size: 0;
 }
+
 :root {
     --price-color: #a9c623;
     --buy-now-color: #f69946;
 }
+
 .logo-img {
     width: 189px;
 }
+
 #about-shop, #home {
     max-width: 1280px;
     margin: auto;
 }
+
 #home {
     padding: 30px;
 }
+
 #burger-checkbox {
     display: none;
 }
+
 .burger-icon {
     margin: 0 0 0 20px;
 }
+
 .navup {
     display: none ;
     margin: 0 0 0 100px;
-
 }
+
 .heading {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
+
 .heading input:checked ~ .navup {
     display: block;
 }
+
 .logo {
     display: flex;
     flex: 1;
@@ -43,6 +52,7 @@
     align-items: center;
     max-width: 400px;
 }
+
 .navheader {
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
@@ -52,21 +62,26 @@
     text-align: center;
     padding: 5px;
 }
+
 .navheader:hover {
     color: var(--buy-now-color);
     transition: color 0.4s;
 }
+
 .heading {
     margin: auto;
 }
+
 @media (min-width: 500px) {
     .heading {
-      display: flex;
+        display: flex;
     }
+
     header label {
         display: none;
     }
-    .heading .navup  {
+
+    .heading .navup {
         display: flexbox;
         flex: 1;
         flex-wrap: wrap;
@@ -74,42 +89,48 @@
         align-items: center;
     }
 }
+
 #about-shop-backgraund {
     background-image: url(../fonimg/fon-about-shop.webp);
     background-size: cover;
     align-content: center;
     padding: 180px 0 180px 0;
 }
+
 #about-shop-footer {
     background-image: url(../fonimg/fon-about-shop-footer.webp);
     background-size: cover;
     align-content: flex-start;
     padding: 40px 0 40px 0;
-
 }
+
 .about-shoptxt {
     color: var(--buy-now-color);
     font-family: 'Kosugi Maru', sans-serif;
     font-size: 14px;
     margin: 0 0 0 40px;
 }
+
 .groceries-text {
     color: var(--price-color);
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
     margin: 0 100px 0 40px;
 }
+
 .onlinehere-text {
     color: black;
     font-size: 72px;
     font-family: 'Istok Web', sans-serif;
     margin: 0 100px 40px 40px;
 }
+
 #about-shop-buttons {
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 0 40px;
 }
+
 #greenbuttonshop {
     border: 2px solid var(--price-color);
     border-radius: 3px;
@@ -119,11 +140,13 @@
     text-decoration: none;
     margin: 10px 20px 0 0;
 }
+
 #greenbuttonshop:hover {
     color: black;
     background-color: var(--price-color);
     transition: color 0.6s;
 }
+
 #buttontryapp {
     border: 2px solid var(--price-color);
     border-radius: 3px;
@@ -131,28 +154,34 @@
     color: var(--buy-now-color);
     text-decoration: none;
     margin: 10px 0 0 0;
-
 }
+
 #buttontryapp:hover {
     color: white;
     background-color: var(--price-color);
     transition: color 0.6s;
 }
+
 .shop-mini-svg {
     width: 100px;
 }
+
 .about-svg {
     width: 20px;
 }
+
 .hiw-svg {
     width: 100px
 }
+
 .freshimg {
     width: 210px
 }
+
 .why-choose-img {
     width: 70px
 }
+
 .week-deals-img {
     width: 203px;
 }
