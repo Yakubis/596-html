@@ -11,16 +11,16 @@
     width: 189px;
 }
 
-#about-shop, #home {
+.about-shop, .home {
     max-width: 1280px;
     margin: auto;
 }
 
-#home {
+.home {
     padding: 30px;
 }
 
-#burger-checkbox {
+.burger-checkbox {
     display: none;
 }
 
@@ -90,14 +90,14 @@
     }
 }
 
-#about-shop-backgraund {
+.about-shop-backgraund {
     background-image: url(../fonimg/fon-about-shop.webp);
     background-size: cover;
     align-content: center;
     padding: 180px 0 180px 0;
 }
 
-#about-shop-footer {
+.about-shop-footer {
     background-image: url(../fonimg/fon-about-shop-footer.webp);
     background-size: cover;
     align-content: flex-start;
@@ -125,13 +125,13 @@
     margin: 0 100px 40px 40px;
 }
 
-#about-shop-buttons {
+.about-shop-buttons {
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 0 40px;
 }
 
-#greenbuttonshop {
+.greenbuttonshop {
     border: 2px solid var(--price-color);
     border-radius: 3px;
     padding: 21px;
@@ -141,13 +141,13 @@
     margin: 10px 20px 0 0;
 }
 
-#greenbuttonshop:hover {
+.greenbuttonshop:hover {
     color: black;
     background-color: var(--price-color);
     transition: color 0.6s;
 }
 
-#buttontryapp {
+.buttontryapp {
     border: 2px solid var(--price-color);
     border-radius: 3px;
     padding: 21px;
@@ -156,7 +156,7 @@
     margin: 10px 0 0 0;
 }
 
-#buttontryapp:hover {
+.buttontryapp:hover {
     color: white;
     background-color: var(--price-color);
     transition: color 0.6s;
@@ -169,6 +169,7 @@
     justify-content: space-between;
     margin: 0;
     max-width: 1280px;
+    margin: auto;
 }
 
 .shop-mini p {
@@ -186,6 +187,8 @@
     flex: 1;
     flex-wrap:wrap;
     max-width: 1280px;
+    margin: auto;
+
 }
 .about {
     display: flexbox;
@@ -239,7 +242,7 @@
     background-repeat: repeat;
     background-size: cover;
     background-position:left;
-    height: 80vh;
+    height: 40vh;
     color: #fff;
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -250,6 +253,9 @@
     margin: 0;
     padding: 50px;
     overflow: hidden;
+    max-width: 1280px;
+    margin: auto;
+
 }
 
 .timer p {
@@ -278,9 +284,20 @@
   .time h2 {
     margin: 0 0 5px;
   }
+}
+
+.hiw-block {
+    display: flex;
+    flex: 1;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 1280px;
+    margin: auto;
+}
 
 .hiw-svg {
-    width: 100px
+    width: 100px;
 }
 
 .freshimg {
