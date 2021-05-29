@@ -1,10 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Kosugi+Maru&family=Source+Sans+Pro:wght@600&display=swap'); h1 {
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Kosugi+Maru&family=Source+Sans+ProSource+Sans+Pro:wght@200&display=swap'); 
+h1 {
     font-size: 0;
 }
 
 :root {
     --price-color: #a9c623;
     --buy-now-color: #f69946;
+}
+
+* p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+
+* h2 {
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+}
+
+* h3 {
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
 }
 
 .logo-img {
@@ -182,7 +198,7 @@
     width: 100px;
 }
 
-#about-art {
+.about-art {
     display: flex;
     flex: 1;
     flex-wrap:wrap;
@@ -196,26 +212,62 @@
     flex-wrap:wrap;
     justify-content: space-between;
     /*max-width: 500px;*/
-
+    min-width: 330px;
 }
 
-.checkmark {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+.about p {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.about h3 {
+    font-size: 14px;
+    color: var(--buy-now-color);
+}
+
+.about h2 {
+    font-size: 42px;
 }
 
 .checkmark-block {
     display: flex;
     flex: 1;
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 0;
-    /*max-width: 500px;*/
+    max-width: 600px;
 }
 
+.checkmark {
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+}
+
+.orangebuttonshop {
+    display: flex;
+}
+
+.buttonshop {
+    display: flex;
+    border: 2px solid var(--buy-now-color);
+    border-radius: 3px;
+    padding: 21px;
+    color: white;
+    background-color: var(--buy-now-color);
+    text-decoration: none;
+    margin: 5px;   
+}
+
+.buttonshop:hover {
+    color: black;
+    transition: color 0.6s;
+}
 .about-svg {
     display: flex;
     flex: 1;
@@ -233,8 +285,20 @@
     justify-content: space-between;
 }
 
-.about-img img {
+.about-img {
     max-width: 500px;
+    margin: 14px 0 0 0;
+}
+
+.about-img img {
+    max-width: 100%;
+    height:auto;
+}
+
+.art-timer {
+    min-width: 292px;
+    max-width: 1280px;
+    margin: 50px auto 50px auto;
 }
 
 .timer {
@@ -253,9 +317,6 @@
     margin: 0;
     padding: 50px;
     overflow: hidden;
-    max-width: 1280px;
-    margin: auto;
-
 }
 
 .timer p {
@@ -269,29 +330,54 @@
 .countdown {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    transform: scale(2);
-  }
+    justify-content: space-between;
+}
+
+.countdown h2 {
+    font-size: 36px;
+}
+
+.countdown small {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    opacity: .54;}
   
-  .time {
+.time {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 15px;
-  }
+}
   
-  .time h2 {
+.time h2 {
     margin: 0 0 5px;
-  }
+}
+
+.hiw {
+    display: inline;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+}
+
+
+.hiw h3 {
+    font-size: 14px;
+    color: var(--price-color);
+}
+
+.hiw h2 {
+    font-size: 42px;
+    margin: 0;
 }
 
 .hiw-block {
     display: flex;
     flex: 1;
     flex-wrap:wrap;
-    justify-content: space-between;
-    margin: 0;
+    justify-content: space-around;
+    text-align: center;
     max-width: 1280px;
     margin: auto;
 }
