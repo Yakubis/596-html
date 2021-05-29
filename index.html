@@ -6,7 +6,6 @@
     <title>Food market Freshy</title>
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Kosugi+Maru&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="home">
@@ -173,82 +172,86 @@
             </div>
         </article>
 
-        <div>
-            <div>
-                <p>25% off</p>
-                <h3>Weekly Sales</h3>
+        <div class="big-shop">
+            <div class="weekly-sales">
+                <h3>25% off</h3>
+                <h2>Weekly Sales</h2>
                 <a href="#sales" class="shopnowstyle">Shop Now</a>
             </div>
-            <div>
-                <p>Exotic</p>
-                <h3>Fresh Fruit</h3>
+            <div class="fresh-fruit">
+                <h3>Exotic</h3>
+                <h2>Fresh Fruit</h2>
                 <a href="#shop" class="shopnowstyle">Shop Now</a>
             </div>
         </div>
             
         <article>
-            <h2 id="shop">Fresh Deals</h2>
-            <p>Right Off the Vine</p>
-            <p>We are constantly updating our range and adding seasonal items. Check out the freshest products and add them to your shopping cart. </p>
-            <div>   
-                <label> 
-                    <input id="rbfruit" type="radio" name="type" checked>Fruit 
-                </label>
-                <label> 
-                    <input id="rbvegetables" type="radio" name="type">Vegetables 
-                </label>   
-                <label> 
-                    <input id="rbberries" type="radio" name="type">Berries 
-                </label>   
-                <label> 
-                    <input id="rbnuts" type="radio" name="type">Vegetables 
-                </label>
-                <div id="fruit">
-                    <div>
-                        <img src="img/figs.png" alt="fresh figs" class="freshimg">
-                        <p>Fresh Figs</p>
-                        <p>5,00usd</p>
-                        <button class="buybutton">Buy now</button>
-                    </div>
-                    <div>
-                        <img src="img/limes.png" alt="limes" class="freshimg">
-                        <p>Limes</p>
-                        <p>1,00usd</p>
-                        <button class="buybutton">Buy now</button>
-                    </div>
-                    <div>
-                        <img src="img/peaches.png" alt="peaches" class="freshimg">
-                        <p>peaches</p>
-                        <p>3,00usd</p>
-                        <button class="buybutton">Buy now</button>
-                    </div>
-                    <div>
-                        <img src="img/tangerines.png" alt="tangerines" class="freshimg">
-                        <p>tangerines</p>
-                        <p>2,00usd</p>
-                        <button class="buybutton">Buy now</button>
-                    </div>                    
+            <div class="shop-main">
+                <h2 id="shop">Fresh Deals</h2>
+                <h3>Right Off the Vine</h3>
+                <p>We are constantly updating our range and adding seasonal items.
+                 Check out the freshest products and add them to your shopping cart. </p>
+            </div>    
+            <div class="shop-rb">    
+                <input type="radio" id="rbfruit" name="type" value="fruit" checked>
+                <label for="rbfruit">Fruit</label>
+
+                <input type="radio" id="rbvegetables" name="type" value="vegetables"> 
+                <label for="rbvegetables">Vegetables</label> 
+
+                <input type="radio" id="rbberries" name="type" value="berries"> 
+                <label for="rbberries">Berries</label> 
+
+                <input type="radio" id="rbnuts" name="type" value="vegetables"> 
+                <label for="rbnuts">Vegetables</label>
+            </div>    
+            
+            <div class="shop-block">
+                <div class="shop-elements">
+                    <img src="img/figs.png" alt="fresh figs" class="freshimg">
+                    <p>Fresh Figs</p>
+                    <p>5,00usd</p>
+                    <button class="buybutton">Buy now</button>
                 </div>
+                <div class="shop-elements">
+                    <img src="img/limes.png" alt="limes" class="freshimg">
+                    <p>Limes</p>
+                    <p>1,00usd</p>
+                    <button class="buybutton">Buy now</button>
+                </div>
+                <div class="shop-elements">
+                    <img src="img/peaches.png" alt="peaches" class="freshimg">
+                    <p>peaches</p>
+                    <p>3,00usd</p>
+                    <button class="buybutton">Buy now</button>
+                </div>
+                <div class="shop-elements">
+                    <img src="img/tangerines.png" alt="tangerines" class="freshimg">
+                    <p>tangerines</p>
+                    <p>2,00usd</p>
+                    <button class="buybutton">Buy now</button>
+                </div>                    
+            </div>
                 <div id="vegetables">
-                    <div>
+                    <div class="shop-elements">
                         <img src="img/bell-pepper.png" alt="bell-pepper" class="freshimg">
                         <p>Bell pepper</p>
                         <p>8,00usd</p>
                         <button class="buybutton">Buy now</button>
                     </div>
-                    <div>
+                    <div class="shop-elements">
                         <img src="img/tomatoes.png" alt="tomatoes" class="freshimg">
                         <p>Tomatoes</p>
                         <p>4,00usd</p>
                         <button class="buybutton">Buy now</button>
                     </div>
-                    <div>
+                    <div class="shop-elements">
                         <img src="img/carrots.png" alt="Carrots" class="freshimg">
                         <p>Carrots</p>
                         <p>1,60usd</p>
                         <button class="buybutton">Buy now</button>
                     </div>
-                    <div>
+                    <div class="shop-elements">
                         <img src="img/pumpkin.png" alt="Pumpkin" class="freshimg">
                         <p>Pumpkin</p>
                         <p>1,50usd</p>

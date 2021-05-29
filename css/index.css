@@ -386,8 +386,147 @@ h1 {
     width: 100px;
 }
 
+.big-shop {
+    display: flex;
+    flex-grow: 1;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1280px;
+    margin: auto;
+}
+.weekly-sales {
+    background-image: url(../img/weekly-sales.webp);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    padding: 20px 0 20px 50px;
+    margin: 20px;
+    max-width: 600px;
+    min-width: 280px;
+    color: white;
+}
+
+.weekly-sales h3 {
+    margin-top: 100px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.weekly-sales h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 20px 0 20px 0;
+}
+
+.weekly-sales a {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.weekly-sales a:hover {
+    text-decoration: underline;
+}
+
+
+.fresh-fruit {
+    background-image: url(../img/fresh-fruit.webp);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    padding: 20px 0 20px 50px;
+    margin: 20px;
+    max-width: 600px;
+    min-width: 280px;
+    color: white;
+}
+
+.fresh-fruit h3 {
+    margin-top: 100px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.fresh-fruit h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 20px 0 20px 0;
+}
+
+.fresh-fruit a {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.fresh-fruit a:hover {
+    text-decoration: underline;
+}
+
+.shop-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-rb {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    border-bottom: 2px solid rgb(187, 187, 187);
+    max-width: 1280px;
+}
+
+.shop-rb label {
+    margin: 0 10px 0 10px;
+    padding: 20px 0 20px 0;
+    font-size: 14px;
+    border-top: 2px solid white;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.shop-rb label:hover {
+    border-top: 2px solid;
+    color: rgb(151, 151, 151);
+    transition: color 0.6s;
+}
+
+
+.shop-rb input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+
+.shop-rb input[type="radio"]:checked + label {
+  border-bottom: 2px solid var(--buy-now-color); /* focus style */
+}
+
+
+.shop-block {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.shop-elements {
+    margin: 5px;
+    background-color:rgb(251, 244, 240);
+}
+
 .freshimg {
-    width: 210px
+    width: 210px;
+    margin: 10px;
 }
 
 .why-choose-img {
