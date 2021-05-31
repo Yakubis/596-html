@@ -189,6 +189,12 @@ h1 {
     margin: auto;
 }
 
+.shop-mini  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .shop-mini p {
     display:block;
     text-align: center;
