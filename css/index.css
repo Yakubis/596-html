@@ -687,13 +687,13 @@ h1 {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     max-width: 1280px;
     margin: auto;
 }
 
-.contact form {
+.contact {
     display: flex;
     flex-direction: column;
 }
