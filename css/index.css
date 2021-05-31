@@ -695,9 +695,9 @@ footer {
 
 .contact form {
     display: flex;
+    flex-direction: column;
 }
 
 .contact label {
     display: flex;
-    flex-direction: column;
 }
