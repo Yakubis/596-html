@@ -687,10 +687,12 @@ h1 {
 
 footer {
     display: flex;
+    flex: 1;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1280px;
     margin: auto;
+    justify-content: space-around;
 }
 
 .contact {
@@ -700,4 +702,6 @@ footer {
 
 .contact label {
     display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
