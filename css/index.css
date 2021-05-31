@@ -555,10 +555,82 @@ h1 {
     margin: 10px;
 }
 
+.why-choose-background {
+    background-image: url(../fonimg/why-choose.webp);
+    background-size: cover;
+    align-content: center;
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.choose {
+    min-width: 600px;
+}
+
+.why-choose {
+    max-width: 1280px;
+    margin: 100px auto 100px auto;
+    display: flex;
+    text-shadow:0 0 12px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 255, 255, 0.9), 0 0 12px rgba(255, 255, 255, 0.9);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.why-choose h2 {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: var(--price-color);
+}
+
+.why-choose h3 {
+    font-size: 42px;
+    margin: 20px 0 20px 0;
+}
+
+.why-choose p {
+    max-width: 600px;
+}
+
+.why-choose-segment h3 {
+    font-size: 22px;
+    margin: 0 0 0 10px;
+}
+
+.why-choose-segment p {
+    margin: 0 0 0 10px;
+}
+
+.why-choose-segment div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.why-choose-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 600px;
+}
+
+
+.why-choose-segment {
+    display: flex;
+    max-width: 300px;
+}
 
 .why-choose-img {
-    width: 70px
+    width: 70px;
+    margin: 5px;
 }
 
 .week-deals-img {
