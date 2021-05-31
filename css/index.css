@@ -667,6 +667,20 @@ h1 {
     margin-bottom: 40px;
 }
 
+#bestdeals {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#bestdeals .bestdealsone {
+    display: flex;
+}
+
 .week-deals-img {
     width: 203px;
 }
