@@ -705,3 +705,7 @@ footer {
     justify-content: space-between;
     margin: 10px;
 }
+
+.contact .buybutton {
+    margin: auto;
+}
