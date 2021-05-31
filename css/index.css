@@ -685,3 +685,19 @@ h1 {
     width: 203px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.contact form {
+    display: flex;
+}
+
+.contact label {
+    display: flex;
+    flex-direction: column;
+}
