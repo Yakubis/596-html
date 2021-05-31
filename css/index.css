@@ -98,7 +98,8 @@ h1 {
     }
 
     .heading .navup {
-        display: flexbox;
+        display: flex;
+        flex-direction: row;
         flex: 1;
         flex-wrap: wrap;
         justify-content: flex-end;
