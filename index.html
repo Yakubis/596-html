@@ -6,6 +6,7 @@
     <title>Food market Freshy</title>
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
     <header class="home">
@@ -13,7 +14,7 @@
             <h1>Freshy</h1>
         </div>
         <div id="hom" class="heading">
-                <img src="img/logotype.svg" alt="Freshy" class="logo-img">
+                <!--<img src="img/logotype.svg" alt="Freshy" class="logo-img">
                 <label class="burger-icon" for="burger-checkbox">☰</label>
                 <input type="checkbox" class="burger-checkbox">
             <nav class="navup">
@@ -25,7 +26,28 @@
                 <a href="#faq" class="navheader">FAQ</a>
                 <a href="#contacts" class="navheader">Contacts</a>
                 <a href="cart.html" class="navheader">Cart</a>
-            </nav>
+            </nav>-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#"></a>
+                  <img src="img/logotype.svg" alt="" width="189" height="">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#hom">Home</a>
+                      <a class="nav-link" href="#aboutus">About&nbsp;Us</a>
+                      <a class="nav-link" href="#shop">Shop</a>
+                      <a class="nav-link" href="#bestdeals">Best&nbsp;Deals</a>
+                      <a class="nav-link" href="#faq">FAQ</a>
+                      <a class="nav-link" href="#contacts">Contacts</a>
+                      <a class="nav-link" href="cart.html">Cart</a>
+
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
     <main>
@@ -207,30 +229,6 @@
             </div>    
             
             <div class="shop-block">
-                <!--<div class="shop-elements">
-                    <img src="img/figs.png" alt="fresh figs" class="freshimg">
-                    <h2>Fresh Figs</h2>
-                    <p>5,00usd</p>
-                    <button class="buybutton">Buy now</button>
-                </div>
-                <div class="shop-elements">
-                    <img src="img/limes.png" alt="limes" class="freshimg">
-                    <h2>Limes</h2>
-                    <p>1,00usd</p>
-                    <button class="buybutton">Buy now</button>
-                </div>
-                <div class="shop-elements">
-                    <img src="img/peaches.png" alt="peaches" class="freshimg">
-                    <h2>Peaches</h2>
-                    <p>3,00usd</p>
-                    <button class="buybutton">Buy now</button>
-                </div>
-                <div class="shop-elements">
-                    <img src="img/tangerines.png" alt="tangerines" class="freshimg">
-                    <h2>Tangerines</h2>
-                    <p>2,00usd</p>
-                    <button class="buybutton">Buy now</button>
-                </div>-->                    
             </div>
         </article>
         <article id="why-choose-us">
@@ -292,8 +290,8 @@
             </div>
         </article>
         <article id="bestdeals">
-            <p>Top Picks</p>
-            <h2>Deals of the Week</h2>
+            <h2 class="best-h">Top Picks</h2>
+            <h3 class="best-hh">Deals of the Week</h3>
             <p>We cut prices for certain products every week. You can always order items you need at the lowest prices and enjoy seasonal items.</p>
             <div class="shop-block">
                 <div class="shop-elements">
@@ -315,7 +313,42 @@
                     <button class="buybutton">Buy now</button>
                 </div>
             </div>
-        </article>    
+        </article> 
+        <article id="faq">
+            <h2>FAQ</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        How can I make the order?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with you shortly to clarify all the details.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        What if I don’t know what plan I need?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with you shortly to clarify all the details.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        What payment options do you provide for clients?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with you shortly to clarify all the details.</div>
+                  </div>
+                </div>
+              </div>
+        </article>   
     </main>
     <footer>
         <h2 id="contacts">Contact Us</h2>
@@ -337,6 +370,7 @@
             </form>
         </div>
     </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>  
     <script src="js/products-sort.js"></script> 
 </body>
