@@ -39,7 +39,7 @@ function renderTab(products, category) {
 // }
 
 async function fetchProdukts() {
-    const response = await fetch('..js/products-list.json');
+    const response = await fetch('products-list.json');
     products = await response.json();
     renderTab(products, 'fruit');
     ;
