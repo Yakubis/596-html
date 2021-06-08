@@ -5,7 +5,7 @@
         "image": "figs.png",
         "title": "Fresh Figs",
         "price": "5,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "image": "limes.png",
         "title": "Limes",
         "price": "1,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@
         "image": "peaches.png",
         "title": "Peaches",
         "price": "3,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "image": "tangerines.png",
         "title": "Tangerines",
         "price": "2,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "image": "bell-pepper.png",
         "title": "Bell pepper",
         "price": "8,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "6",
@@ -45,7 +45,7 @@
         "image": "tomatoes.png",
         "title": "Tomatoes",
         "price": "4,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "7",
@@ -53,7 +53,7 @@
         "image": "carrots.png",
         "title": "Carrots",
         "price": "1,60",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "8",
@@ -61,7 +61,7 @@
         "image": "pumpkin.png",
         "title": "Pumpkin",
         "price": "1,50",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "9",
@@ -69,7 +69,7 @@
         "image": "blueberries.png",
         "title": "Blueberries",
         "price": "5,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "10",
@@ -77,7 +77,7 @@
         "image": "red-grapes.png",
         "title": "Red grapes",
         "price": "3,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "11",
@@ -85,7 +85,7 @@
         "image": "water-melon.png",
         "title": "Water melon",
         "price": "6,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "12",
@@ -93,7 +93,7 @@
         "image": "raspberries.png",
         "title": "Raspberries",
         "price": "3,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "13",
@@ -101,7 +101,7 @@
         "image": "cashew-nuts.png",
         "title": "Cashew nuts",
         "price": "13,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "14",
@@ -109,7 +109,7 @@
         "image": "macadamia-nuts.png",
         "title": "Macadamia nuts",
         "price": "17,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "15",
@@ -117,7 +117,7 @@
         "image": "raw-walnuts.png",
         "title": "Raw walnuts",
         "price": "9,00",
-        "currency": "USD",
+        "currency": "USD"
     },
     {
         "id": "16",
@@ -125,7 +125,7 @@
         "image": "pistachios.png",
         "title": "Pistachios",
         "price": "12,00",
-        "currency": "USD",
-    },
+        "currency": "USD"
+    }
 
 ]
